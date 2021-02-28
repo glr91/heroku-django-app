@@ -58,10 +58,15 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'djangoherokuapp.urls'
 
+SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
+TEMPLATE_DIRS = (
+    os.path.join(SETTINGS_PATH, 'templates'),
+)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'build')],
+        'DIRS': [os.path.join(BASE_DIR, 'build'), os.path.join(BASE_DIR, 'public')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
