@@ -39,10 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
+    'rest_framework',
     'cds_guille'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -58,7 +61,7 @@ ROOT_URLCONF = 'djangoherokuapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -138,3 +141,13 @@ DATABASES['default'].update(prod_db)
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
+
+# Allow frontend requests
+
+# Option 1
+CORS_ORIGIN_WHITELIST = [
+    'https://localhost:3000', # # Whitelist localhost:3000 because that's where frontend will be served
+]
+
+# Option 2
+CORS_ORIGIN_ALLOW_ALL = True
