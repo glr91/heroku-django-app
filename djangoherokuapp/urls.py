@@ -27,5 +27,5 @@ router.register(r'bands', views.BandsView, 'band')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
-    re_path('.*', views.FrontendAppView.as_view()),
+    re_path('', views.FrontendAppView.as_view()),
 ]
