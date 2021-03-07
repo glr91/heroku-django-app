@@ -1,6 +1,7 @@
 from django.shortcuts import render
-from rest_framework import viewsets    
-from .serializers import AlbumSerializer, BandSerializer     
+from rest_framework import viewsets, generics
+from rest_framework.views import APIView
+from .serializers import AlbumSerializer, BandSerializer, TreeParentNodeSerializer, TreeChildNodeSerializer   
 from .models import Album, Band    
 from django.views import View
 from django.http import HttpResponse
@@ -10,11 +11,48 @@ import logging
 
 class AlbumsView(viewsets.ModelViewSet):       
     serializer_class = AlbumSerializer          
-    queryset = Album.objects.all()          
+    queryset = Album.objects.all()
+        
 
 class BandsView(viewsets.ModelViewSet):       
     serializer_class = BandSerializer          
     queryset = Band.objects.all()       
+
+class AlbumsBandView(viewsets.ModelViewSet):
+    serializer_class = AlbumSerializer    
+    def get_queryset(self):
+        artistId = self.request.query_params.get('artistId', None)
+        if artistId is not None:
+            queryset = Album.objects.filter(artist=artistId)
+
+        else:
+            queryset = Album.objects.all()  
+
+        return queryset  
+
+class AlbumsBandNodesTreeView(viewsets.ModelViewSet):
+    serializer_class = TreeParentNodeSerializer    
+    def get_queryset(self):
+        result = []
+        bands = Band.objects.all()  
+        for band in bands:
+            parentNode = TreeParentNodeSerializer()
+            parentNode.parentId = None
+            parentNode.label = band.name
+            parentNode.id = band.id
+            albums = Album.objects.filter(artist=band.id)
+            childNodes = []
+            for album in albums:
+                childNode = TreeChildNodeSerializer()
+                childNode.parentId = band.id
+                childNode.label = album.title
+                childNode.id = album.id
+                childNodes.append(childNode)
+
+            parentNode.items = childNodes
+            result.append(parentNode)
+
+        return result  
 
 class FrontendAppView(View):
     """

@@ -20,8 +20,10 @@ from django.views.generic import TemplateView
 from cds_guille import views 
 
 router = routers.DefaultRouter()   
-router.register(r'albums', views.AlbumsView, 'album')
-router.register(r'bands', views.BandsView, 'band')
+router.register(r'albums', views.AlbumsView, basename='albums')
+router.register(r'albums-band', views.AlbumsBandView, basename='albums-band')
+router.register(r'albums-band-tree', views.AlbumsBandNodesTreeView, basename='albums-band-tree')
+router.register(r'bands', views.BandsView, basename='bands')
 
 
 urlpatterns = [
