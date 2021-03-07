@@ -16,6 +16,7 @@ psycopg2-binary==2.8.6
 pycrypto==2.6.1
 pytz==2021.1
 pyxdg==0.25
+PyYAML==3.12
 SecretStorage==2.3.1
 six==1.11.0
 sqlparse==0.4.1
