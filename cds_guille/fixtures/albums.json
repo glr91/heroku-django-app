@@ -28,5 +28,25 @@
       "artist": 3,
       "original": false
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 4,
+    "fields": {
+      "title": "Dirty Deeds Done Dirt Cheap",
+      "year": 1976,
+      "artist": 1,
+      "original": false
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 5,
+    "fields": {
+      "title": "Back In Black",
+      "year": 1980,
+      "artist": 1,
+      "original": false
+    }
   }
 ]
