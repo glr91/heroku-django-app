@@ -9,32 +9,6 @@ axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 
 function App() {
 
-  // //var nodes = [
-  //   /*     {
-  //         label: 'Node',
-  //         id: 1234,
-  //         parentId: null,
-  //         items: [
-  //           {
-  //             label: 'Child node 1',
-  //             id: 1236,
-  //             parentId: 1234,
-  //           },
-  //           {
-  //             label: 'Child node 2',
-  //             id: 5678,
-  //             parentId: 1234
-  //           }
-  //         ]
-  //       },
-  //       {
-  //         label: 'Node',
-  //         id: 1235,
-  //         parentId: null
-  //       } */
-  //     //]
-  
-
   const axios = require('axios');
   var bands = null;
   var albums = null;
@@ -42,28 +16,11 @@ function App() {
   const [nodes, setNodes] = useState([]);
 
   useEffect(() => {
-    axios.get('api/bands/')
+    axios.get('api/albums-band-tree/')
     .then(function (response) {
       // handle success
-      bands = response.data;
-      axios.get('api/albums/')
-      .then(function (response) {
-        // handle success
-        albums = response.data;
-        let nodes = [];
-        bands.map((band) => {
-          nodes = nodes.concat({
-            label: band.name,
-            id: band.id,
-            parentId: null
-          });
-        })
+      let nodes = response.data;
         setNodes(nodes);
-      })
-      .catch(function (error) {
-        // handle error
-        console.log(error);
-      })
     })
     .catch(function (error) {
       // handle error
