@@ -8,17 +8,8 @@
 		{
 			"name": "GET bands",
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"id\": 4,\n    \"name\": \"Iron Maiden\"\n}\n",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
 					"raw": "https://cds-guille.herokuapp.com/api/bands/",
 					"protocol": "https",
@@ -61,6 +52,57 @@
 					"path": [
 						"api",
 						"bands",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET albums",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/albums/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"albums",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST albums",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 6,\n    \"artist\": 3,\n    \"title\": \"Artificial album\",\n    \"year\": 1976,\n    \"original\": false\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/albums/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"albums",
 						""
 					]
 				}
