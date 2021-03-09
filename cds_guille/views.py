@@ -9,17 +9,23 @@ from django.conf import settings
 import os     
 import logging      
 
+# FIXME: only allow GET requests in all the views, do not allow POSTS/PUTS/DELETES and so on
+
+
 class AlbumsView(viewsets.ModelViewSet):       
     serializer_class = AlbumSerializer          
     queryset = Album.objects.all()
+    http_method_names = ['get']
         
 
 class BandsView(viewsets.ModelViewSet):       
     serializer_class = BandSerializer          
     queryset = Band.objects.all()       
+    http_method_names = ['get']
 
 class AlbumsBandView(viewsets.ModelViewSet):
     serializer_class = AlbumSerializer    
+    http_method_names = ['get']
     def get_queryset(self):
         artistId = self.request.query_params.get('artistId', None)
         if artistId is not None:
@@ -31,7 +37,9 @@ class AlbumsBandView(viewsets.ModelViewSet):
         return queryset  
 
 class AlbumsBandNodesTreeView(viewsets.ModelViewSet):
+    # FIXME: order queries by name for bands and albums
     serializer_class = TreeParentNodeSerializer    
+    http_method_names = ['get']
     def get_queryset(self):
         result = []
         bands = Band.objects.all()  
