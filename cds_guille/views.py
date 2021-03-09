@@ -37,18 +37,17 @@ class AlbumsBandView(viewsets.ModelViewSet):
         return queryset  
 
 class AlbumsBandNodesTreeView(viewsets.ModelViewSet):
-    # FIXME: order queries by name for bands and albums
     serializer_class = TreeParentNodeSerializer    
-    http_method_names = ['get']
+    
     def get_queryset(self):
         result = []
-        bands = Band.objects.all()  
+        bands = Band.objects.order_by('name')  
         for band in bands:
             parentNode = TreeParentNodeSerializer()
             parentNode.parentId = None
             parentNode.label = band.name
             parentNode.id = band.id
-            albums = Album.objects.filter(artist=band.id)
+            albums = Album.objects.filter(artist=band.id).order_by('title')
             childNodes = []
             for album in albums:
                 childNode = TreeChildNodeSerializer()
