@@ -19,5 +19,61 @@
     "fields": {
       "name": "SFDK"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 4,
+    "fields": {
+      "name": "Airbourne"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 5,
+    "fields": {
+      "name": "Annihilator"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 6,
+    "fields": {
+      "name": "Anthrax"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 7,
+    "fields": {
+      "name": "Army Of The Pharaohs"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 8,
+    "fields": {
+      "name": "Bandas Sonoras"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 9,
+    "fields": {
+      "name": "Bellako"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 10,
+    "fields": {
+      "name": "Biohazard"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 11,
+    "fields": {
+      "name": "Black Label Society"
+    }
   }
 ]
