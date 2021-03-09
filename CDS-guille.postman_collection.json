@@ -11,13 +11,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://cds-guille.herokuapp.com/api/bands/",
-					"protocol": "https",
+					"raw": "http://localhost:8000/api/bands/",
+					"protocol": "http",
 					"host": [
-						"cds-guille",
-						"herokuapp",
-						"com"
+						"localhost"
 					],
+					"port": "8000",
 					"path": [
 						"api",
 						"bands",
@@ -42,13 +41,12 @@
 					}
 				},
 				"url": {
-					"raw": "https://cds-guille.herokuapp.com/api/bands/",
-					"protocol": "https",
+					"raw": "http://localhost:8000/api/bands/",
+					"protocol": "http",
 					"host": [
-						"cds-guille",
-						"herokuapp",
-						"com"
+						"localhost"
 					],
+					"port": "8000",
 					"path": [
 						"api",
 						"bands",
