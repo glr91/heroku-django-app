@@ -48,5 +48,149 @@
       "artist": 1,
       "original": false
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 6,
+    "fields": {
+      "title": "2pacalypse Now",
+      "artist": 2
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 7,
+    "fields": {
+      "title": "Strictly 4 My N.I.G.G.A.Z",
+      "artist": 2
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 8,
+    "fields": {
+      "title": "Ballbreaker",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 9,
+    "fields": {
+      "title": "Black Ice",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 10,
+    "fields": {
+      "title": "Blow Up Your Video",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 11,
+    "fields": {
+      "title": "Flick Of The Switch",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 12,
+    "fields": {
+      "title": "Fly On The Wall",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 13,
+    "fields": {
+      "title": "For Those About To Rock",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 14,
+    "fields": {
+      "title": "Highway To Hell",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 15,
+    "fields": {
+      "title": "If You Want Blood You've Got It",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 16,
+    "fields": {
+      "title": "Let There Be Rock",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 17,
+    "fields": {
+      "title": "Powerage",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 18,
+    "fields": {
+      "title": "Pwr Up",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 19,
+    "fields": {
+      "title": "Rock Or Bust",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 20,
+    "fields": {
+      "title": "Stiff Upper Lip",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 21,
+    "fields": {
+      "title": "The Razors Edge",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 22,
+    "fields": {
+      "title": "Who Made Who",
+      "artist": 1
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 23,
+    "fields": {
+      "title": "Breakin' Outta Hell",
+      "artist": 4
+    }
   }
 ]
