@@ -192,5 +192,101 @@
       "title": "Breakin' Outta Hell",
       "artist": 4
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 24,
+    "fields": {
+      "title": "Alice In Hell",
+      "artist": 5
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 25,
+    "fields": {
+      "title": "Among The Living",
+      "artist": 6
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 26,
+    "fields": {
+      "title": "Sound Of White Noise",
+      "artist": 6
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 27,
+    "fields": {
+      "title": "The Collection",
+      "artist": 6
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 28,
+    "fields": {
+      "title": "The Torture Papers",
+      "artist": 7
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 29,
+    "fields": {
+      "title": "8 mile",
+      "artist": 8
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 30,
+    "fields": {
+      "title": "A Knight's Tale",
+      "artist": 8
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 31,
+    "fields": {
+      "title": "Daredevil",
+      "artist": 8
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 32,
+    "fields": {
+      "title": "Mission: Impossible 2",
+      "artist": 8
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 33,
+    "fields": {
+      "title": "Shrek",
+      "artist": 8
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 34,
+    "fields": {
+      "title": "Spider-man",
+      "artist": 8
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 35,
+    "fields": {
+      "title": "Demonios",
+      "artist": 9
+    }
   }
 ]
