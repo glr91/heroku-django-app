@@ -145,7 +145,7 @@
     "fields": {
       "name": "Lamb Of God"
     }
-  }
+  },
   {
     "model": "cds_guille.Band",
     "pk": 22,
