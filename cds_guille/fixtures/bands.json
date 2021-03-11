@@ -131,5 +131,159 @@
     "fields": {
       "name": "Judas Priest"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 20,
+    "fields": {
+      "name": "Krasny Bor"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 21,
+    "fields": {
+      "name": "Lamb Of God"
+    }
+  }
+  {
+    "model": "cds_guille.Band",
+    "pk": 22,
+    "fields": {
+      "name": "Machine Head"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 23,
+    "fields": {
+      "name": "Megadeth"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 24,
+    "fields": {
+      "name": "Linkin Park"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 25,
+    "fields": {
+      "name": "Metal Church"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 26,
+    "fields": {
+      "name": "Metallica"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 27,
+    "fields": {
+      "name": "Motorhead"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 28,
+    "fields": {
+      "name": "Narwhale"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 29,
+    "fields": {
+      "name": "Necro"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 30,
+    "fields": {
+      "name": "Pantera"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 31,
+    "fields": {
+      "name": "Pennywise"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 32,
+    "fields": {
+      "name": "Public Enemy"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 33,
+    "fields": {
+      "name": "Rage Against The Machine"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 34,
+    "fields": {
+      "name": "Recopilatorios"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 35,
+    "fields": {
+      "name": "Saxon"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 36,
+    "fields": {
+      "name": "Sepultura"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 37,
+    "fields": {
+      "name": "Slayer"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 38,
+    "fields": {
+      "name": "Slipknot"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 39,
+    "fields": {
+      "name": "Sum 41"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 40,
+    "fields": {
+      "name": "The Offspring"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 41,
+    "fields": {
+      "name": "Trivium"
+    }
   }
 ]
