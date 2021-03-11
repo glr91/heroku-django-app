@@ -75,5 +75,61 @@
     "fields": {
       "name": "Black Label Society"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 12,
+    "fields": {
+      "name": "Brujería"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 13,
+    "fields": {
+      "name": "Eminem"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 14,
+    "fields": {
+      "name": "Falsalarma"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 15,
+    "fields": {
+      "name": "Hammerfall"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 16,
+    "fields": {
+      "name": "Ill Bill"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 17,
+    "fields": {
+      "name": "Iron Maiden"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 18,
+    "fields": {
+      "name": "Jedi Mind Tricks"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 19,
+    "fields": {
+      "name": "Judas Priest"
+    }
   }
 ]
