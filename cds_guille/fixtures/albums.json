@@ -288,5 +288,173 @@
       "title": "Demonios",
       "artist": 9
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 36,
+    "fields": {
+      "title": "New World Disorder",
+      "artist": 10
+    }
+  },
+    {
+    "model": "cds_guille.Album",
+    "pk": 37,
+    "fields": {
+      "title": "Shot To Hell",
+      "artist": 11
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 38,
+    "fields": {
+      "title": "The Blessed Hellride",
+      "artist": 11
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 39,
+    "fields": {
+      "title": "Marijuana",
+      "artist": 12
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 40,
+    "fields": {
+      "title": "The Marshall Mathers LP",
+      "artist": 13
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 41,
+    "fields": {
+      "title": "Alquimia",
+      "artist": 14
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 42,
+    "fields": {
+      "title": "Ley De Vida",
+      "artist": 14
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 43,
+    "fields": {
+      "title": "Chapter V: Unbent, Unbowed, Unbroken",
+      "artist": 15
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 44,
+    "fields": {
+      "title": "Legacy Of Kings",
+      "artist": 16
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 45,
+    "fields": {
+      "title": "What's Wrong With Bill?",
+      "artist": 16
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 46,
+    "fields": {
+      "title": "Best Of The Beast",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 47,
+    "fields": {
+      "title": "Dance Of Death",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 48,
+    "fields": {
+      "title": "Iron Maiden",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 49,
+    "fields": {
+      "title": "Powerslave",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 50,
+    "fields": {
+      "title": "The Book Of Souls",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 51,
+    "fields": {
+      "title": "The Final Frontier",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 52,
+    "fields": {
+      "title": "The Number Of The Beast",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 53,
+    "fields": {
+      "title": "A History Of Violence",
+      "artist": 18
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 54,
+    "fields": {
+      "title": "British Steel",
+      "artist": 19
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 55,
+    "fields": {
+      "title": "Painkiller",
+      "artist": 19
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk":56,
+    "fields": {
+      "title": "Ellos Lo Tienen Todo... Nosotros Lo Que Les Falta",
+      "artist": 20
+    }
   }
 ]
