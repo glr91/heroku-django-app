@@ -539,7 +539,7 @@
   },
   {
     "model": "cds_guille.Album",
-    "pk": 67,
+    "pk": 125,
     "fields": {
       "title": "Cryptic Writings",
       "artist": 23
@@ -647,6 +647,374 @@
     "fields": {
       "title": "St. Anger",
       "artist": 26
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 80,
+    "fields": {
+      "title": "1916",
+      "artist": 27
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 81,
+    "fields": {
+      "title": "Ace Of Spades",
+      "artist": 27
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 82,
+    "fields": {
+      "title": "Inferno",
+      "artist": 27
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 83,
+    "fields": {
+      "title": "Iron Fist",
+      "artist": 27
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 84,
+    "fields": {
+      "title": "Kiss Of Death",
+      "artist": 27
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 85,
+    "fields": {
+      "title": "Motorizer",
+      "artist": 27
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 86,
+    "fields": {
+      "title": "Orgasmatron",
+      "artist": 27
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 87,
+    "fields": {
+      "title": "Heart Of The Corpse Whale",
+      "artist": 28
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 88,
+    "fields": {
+      "title": "I Need Drugs",
+      "artist": 29
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 89,
+    "fields": {
+      "title": "Cowboys From Hell",
+      "artist": 30
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 90,
+    "fields": {
+      "title": "Reinventing Hell",
+      "artist": 30
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 91,
+    "fields": {
+      "title": "Vulgar Display Of Power",
+      "artist": 30
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 92,
+    "fields": {
+      "title": "Live @ The Key Club",
+      "artist": 31
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 93,
+    "fields": {
+      "title": "Beats And Places",
+      "artist": 32
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 94,
+    "fields": {
+      "title": "Live From Metropolis Studios",
+      "artist": 32
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 95,
+    "fields": {
+      "title": "Man Plans God Laughs",
+      "artist": 32
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 96,
+    "fields": {
+      "title": "Revolverlution",
+      "artist": 32
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 97,
+    "fields": {
+      "title": "The Battle Of Los Angeles",
+      "artist": 33
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 98,
+    "fields": {
+      "title": "The Many Faces Of Judas Priest",
+      "artist": 34
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 99,
+    "fields": {
+      "title": "This Is Thrash CD3",
+      "artist": 34
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 100,
+    "fields": {
+      "title": "Call To Arms",
+      "artist": 35
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 101,
+    "fields": {
+      "title": "Crusader",
+      "artist": 35
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 102,
+    "fields": {
+      "title": "Lionheart",
+      "artist": 35
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 103,
+    "fields": {
+      "title": "The Eagle Has Landed",
+      "artist": 35
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 104,
+    "fields": {
+      "title": "Unleash The Beast",
+      "artist": 35
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 105,
+    "fields": {
+      "title": "Wheels Of Steel",
+      "artist": 35
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 106,
+    "fields": {
+      "title": "Beneath The Remains",
+      "artist": 36
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 107,
+    "fields": {
+      "title": "Chaos A.D.",
+      "artist": 36
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 108,
+    "fields": {
+      "title": "Roots",
+      "artist": 36
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 109,
+    "fields": {
+      "title": "Divine Intervention",
+      "artist": 37
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 110,
+    "fields": {
+      "title": "God Hates Us All",
+      "artist": 37
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 111,
+    "fields": {
+      "title": "Live In Montreux 2002",
+      "artist": 37
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 112,
+    "fields": {
+      "title": "Reign In Blood",
+      "artist": 37
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 113,
+    "fields": {
+      "title": "Show No Mercy",
+      "artist": 37
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 114,
+    "fields": {
+      "title": "Undisputed Attitude",
+      "artist": 37
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 115,
+    "fields": {
+      "title": ".5: The Gray Chapter",
+      "artist": 38
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 116,
+    "fields": {
+      "title": "Chuck",
+      "artist": 39
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 117,
+    "fields": {
+      "title": "Americana",
+      "artist": 40
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 118,
+    "fields": {
+      "title": "Conspiracy Of One",
+      "artist": 40
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 119,
+    "fields": {
+      "title": "Greatest Hits",
+      "artist": 40
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 120,
+    "fields": {
+      "title": "Ixnay On The Hombre",
+      "artist": 40
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 121,
+    "fields": {
+      "title": "Rise And Fall, Rage And Grace",
+      "artist": 40
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 122,
+    "fields": {
+      "title": "Smash",
+      "artist": 40
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 123,
+    "fields": {
+      "title": "Splinter",
+      "artist": 40
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 124,
+    "fields": {
+      "title": "Ascendancy",
+      "artist": 41
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 126,
+    "fields": {
+      "title": "Shogun",
+      "artist": 41
     }
   }
 ]
