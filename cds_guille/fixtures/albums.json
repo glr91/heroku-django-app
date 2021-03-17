@@ -358,7 +358,7 @@
     "pk": 44,
     "fields": {
       "title": "Legacy Of Kings",
-      "artist": 16
+      "artist": 15
     }
   },
   {
@@ -455,6 +455,198 @@
     "fields": {
       "title": "Ellos Lo Tienen Todo... Nosotros Lo Que Les Falta",
       "artist": 20
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk":57,
+    "fields": {
+      "title": "Lamb Of God",
+      "artist": 21
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk":58,
+    "fields": {
+      "title": "Hybrid Theory",
+      "artist": 24
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk":59,
+    "fields": {
+      "title": "Live In Texas",
+      "artist": 24
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk":60,
+    "fields": {
+      "title": "Meteora",
+      "artist": 24
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk":61,
+    "fields": {
+      "title": "Reanimation",
+      "artist": 24
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 62,
+    "fields": {
+      "title": "The Blackening",
+      "artist": 22
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 63,
+    "fields": {
+      "title": "The Burning Red",
+      "artist": 22
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 64,
+    "fields": {
+      "title": "The More Things Change...",
+      "artist": 22
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 65,
+    "fields": {
+      "title": "Unto The Locust",
+      "artist": 22
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 66,
+    "fields": {
+      "title": "Capitol Punishment",
+      "artist": 23
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 67,
+    "fields": {
+      "title": "Cryptic Writings",
+      "artist": 23
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 67,
+    "fields": {
+      "title": "Peace Sells... But Who's Buying?",
+      "artist": 23
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 68,
+    "fields": {
+      "title": "Rust In Peace",
+      "artist": 23
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 69,
+    "fields": {
+      "title": "So Far, So Good... So What?",
+      "artist": 23
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 70,
+    "fields": {
+      "title": "Youthanasia",
+      "artist": 23
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 71,
+    "fields": {
+      "title": "The Weight Of The World",
+      "artist": 25
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 72,
+    "fields": {
+      "title": "... And Justice For All",
+      "artist": 26
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 73,
+    "fields": {
+      "title": "Death Magnetic",
+      "artist": 26
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 74,
+    "fields": {
+      "title": "Hardwired... To Self-Destruct",
+      "artist": 26
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 75,
+    "fields": {
+      "title": "Master Of Puppets",
+      "artist": 26
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 76,
+    "fields": {
+      "title": "Metallica",
+      "artist": 26
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 77,
+    "fields": {
+      "title": "Reload",
+      "artist": 26
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 78,
+    "fields": {
+      "title": "S&M",
+      "artist": 26
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 79,
+    "fields": {
+      "title": "St. Anger",
+      "artist": 26
     }
   }
 ]
