@@ -285,5 +285,19 @@
     "fields": {
       "name": "Trivium"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 42,
+    "fields": {
+      "name": "Killswitch Engage"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 43,
+    "fields": {
+      "name": "Venom"
+    }
   }
 ]

@@ -1016,5 +1016,37 @@
       "title": "Shogun",
       "artist": 41
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 127,
+    "fields": {
+      "title": "Reinventing The Steel",
+      "artist": 30
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 128,
+    "fields": {
+      "title": "The End Of Heartache",
+      "artist": 42
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 129,
+    "fields": {
+      "title": "Black Metal",
+      "artist": 43
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 130,
+    "fields": {
+      "title": "Iowa",
+      "artist": 38
+    }
   }
 ]
