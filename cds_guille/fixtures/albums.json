@@ -1048,5 +1048,29 @@
       "title": "Iowa",
       "artist": 38
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 131,
+    "fields": {
+      "title": "A Pelo Por El Mundo",
+      "artist": 44
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 132,
+    "fields": {
+      "title": "Tercero Cuarta",
+      "artist": 44
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 133,
+    "fields": {
+      "title": "Alta Gama",
+      "artist": 44
+    }
   }
 ]

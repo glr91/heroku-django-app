@@ -299,5 +299,12 @@
     "fields": {
       "name": "Venom"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 44,
+    "fields": {
+      "name": "Anal Hard"
+    }
   }
 ]
