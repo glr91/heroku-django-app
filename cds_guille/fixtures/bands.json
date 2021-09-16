@@ -306,5 +306,19 @@
     "fields": {
       "name": "Anal Hard"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 45,
+    "fields": {
+      "name": "Hatebreed"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 46,
+    "fields": {
+      "name": "Parkway Drive"
+    }
   }
 ]

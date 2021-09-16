@@ -1072,5 +1072,37 @@
       "title": "Alta Gama",
       "artist": 44
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 134,
+    "fields": {
+      "title": "Arise",
+      "artist": 36
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 135,
+    "fields": {
+      "title": "Perseverance",
+      "artist": 45
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 136,
+    "fields": {
+      "title": "Ashes Of The Wake",
+      "artist": 21
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 137,
+    "fields": {
+      "title": "Atlas",
+      "artist": 46
+    }
   }
 ]
