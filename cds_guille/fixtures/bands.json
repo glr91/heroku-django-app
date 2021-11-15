@@ -320,5 +320,19 @@
     "fields": {
       "name": "Parkway Drive"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 47,
+    "fields": {
+      "name": "Angelus Apatrida"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 48,
+    "fields": {
+      "name": "Sylosis"
+    }
   }
 ]

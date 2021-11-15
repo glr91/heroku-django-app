@@ -1104,5 +1104,29 @@
       "title": "Atlas",
       "artist": 46
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 138,
+    "fields": {
+      "title": "Clockwork",
+      "artist": 47
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 139,
+    "fields": {
+      "title": "Cycle Of Suffering",
+      "artist": 48
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 140,
+    "fields": {
+      "title": "The Notorious Goriest",
+      "artist": 29
+    }
   }
 ]
