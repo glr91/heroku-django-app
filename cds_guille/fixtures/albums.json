@@ -1128,5 +1128,37 @@
       "title": "The Notorious Goriest",
       "artist": 29
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 141,
+    "fields": {
+      "title": "Killers",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 142,
+    "fields": {
+      "title": "Piece Of Mind",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 143,
+    "fields": {
+      "title": "Somewhere In Time",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 144,
+    "fields": {
+      "title": "Brave New World",
+      "artist": 17
+    }
   }
 ]
