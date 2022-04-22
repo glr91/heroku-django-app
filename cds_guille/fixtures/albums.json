@@ -1160,5 +1160,37 @@
       "title": "Brave New World",
       "artist": 17
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 145,
+    "fields": {
+      "title": "Slipknot",
+      "artist": 38
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 146,
+    "fields": {
+      "title": "The End Complete",
+      "artist": 49
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 147,
+    "fields": {
+      "title": "Symbolic",
+      "artist": 50
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 148,
+    "fields": {
+      "title": "Influencers Del Underground",
+      "artist": 44
+    }
   }
 ]

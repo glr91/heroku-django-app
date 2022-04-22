@@ -334,5 +334,19 @@
     "fields": {
       "name": "Sylosis"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 49,
+    "fields": {
+      "name": "Obituary"
+    }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 50,
+    "fields": {
+      "name": "Death"
+    }
   }
 ]
