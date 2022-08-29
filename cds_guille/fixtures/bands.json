@@ -348,5 +348,12 @@
     "fields": {
       "name": "Death"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 51,
+    "fields": {
+      "name": "Kreator"
+    }
   }
 ]

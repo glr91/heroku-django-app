@@ -1192,5 +1192,21 @@
       "title": "Influencers Del Underground",
       "artist": 44
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 149,
+    "fields": {
+      "title": "Burn My Eyes",
+      "artist": 22
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 150,
+    "fields": {
+      "title": "Endless Pain",
+      "artist": 51
+    }
   }
 ]
