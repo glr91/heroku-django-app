@@ -1208,5 +1208,37 @@
       "title": "Endless Pain",
       "artist": 51
     }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 151,
+    "fields": {
+      "title": "Biohazard",
+      "artist": 10
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 152,
+    "fields": {
+      "title": "Redeemer Of Souls",
+      "artist": 19
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 153,
+    "fields": {
+      "title": "The X Factor",
+      "artist": 17
+    }
+  },
+  {
+    "model": "cds_guille.Album",
+    "pk": 154,
+    "fields": {
+      "title": "One Voice",
+      "artist": 52
+    }
   }
 ]

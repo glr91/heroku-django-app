@@ -355,5 +355,12 @@
     "fields": {
       "name": "Kreator"
     }
+  },
+  {
+    "model": "cds_guille.Band",
+    "pk": 52,
+    "fields": {
+      "name": "Agnostic Front"
+    }
   }
 ]
